@@ -1,27 +1,31 @@
-html{
+html {
     width: 100%;
     height: 100;
     margin: 20px;
 }
-body{
-background:  url('image/background.jpg');
-/* linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), */
-background-repeat: no-repeat; 
-background-size: cover; 
-background-attachment: fixed; 
-background-position: top;
+
+body {
+    background: url('image/background.jpg');
+    /* linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
 }
-.all{
+
+.all {
     display: flex;
     align-items: top;
 }
-p{
+
+p {
     position: relative;
     text-align: center;
     vertical-align: bottom;
     padding-top: 25px;
 }
-ol{
+
+ol {
     border: 0ch;
     border-radius: 0%;
     display: flex;
@@ -37,44 +41,63 @@ ol{
     margin: 0px;
 }
 
-li{
+li {
     line-height: 0px;
     padding: 0px;
     height: 150px;
-    width: 100px;  
+    width: 100px;
 }
-.tab1:hover{
-    background-color: rgba(13, 12, 12, 0.4);
 
-}
-.tab2:hover{
+.tab1:hover {
     background-color: rgba(13, 12, 12, 0.4);
+    cursor: pointer;
 }
-.tab3:hover{
+
+.tab2:hover {
     background-color: rgba(13, 12, 12, 0.4);
+    cursor: pointer;
 }
-.tab1{
+
+.tab3:hover {
+    background-color: rgba(13, 12, 12, 0.4);
+    cursor: pointer;
+}
+
+.tab1 {
     border-style: solid;
     border-color: white;
     border-bottom-width: 1px;
 }
-.tab3{
+
+.tab3 {
     border-style: solid;
     border-color: white;
     border-top-width: 1px;
 }
-.Tab1{
+
+.Tab1 {
     display: flex;
     margin-top: 3px;
     height: 500px;
-    width: auto;
+    width: 1130px;
     background-color: rgba(13, 12, 12, 0.58);
     z-index: 2;
+    align-items: center;
     position: relative;
 }
-h1{
-    text-transform: uppercase;
+
+h2 {
+    margin: 20px;
 }
-.content{
-    
+
+.content {
+    left: auto;
+    margin-left: 20px;
+    width: 350px;
+}
+
+.fine {
+    text-align: left;
+    font-size: large;
+    padding-top: 0;
 }
